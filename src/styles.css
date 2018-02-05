@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body{
+	background: #f5f5fa;
+	font-size: 14px;
+	overflow-x:  hidden;
+	font-family: Roboto, Helvetica, sans-serif
+}
+header{
+	width: 100%;
+	background-color: #2f323a;
+	height: 60px;
+	line-height: 60px;
+	color: #fff;
+	position: fixed;
+	top: 0px;
+	z-index: 100;
+}
+aside{
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	background: #2f323a;
+	color: #fff;
+	top: 60px;
+
+}
+.container{
+	width: 80%;
+	margin-left: 20%;
+	margin-top: 60px;
+}
+.card{
+	background: #fff;
+	margin:  3%;
+	display: inline-block;
+	vertical-align: top;
+}

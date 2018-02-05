@@ -1,0 +1,35 @@
+nav{
+	text-align: left;
+}
+nav>ul{
+	text-decoration: none;
+}
+nav>ul>li{
+	padding: 0px 20px;
+	max-width: 100%;
+	height: 49px;
+	line-height: 49px;
+	text-decoration: none;
+
+}
+nav>ul>li>a{
+	text-decoration: none;
+	color: #fff;
+}
+nav>ul>li>a>i{
+	color:#5c9df5;
+	margin-right: 5px;
+}
+
+.navigate{
+	text-transform: uppercase;
+	position: relative;
+	margin: 20px auto;
+	color: #47494f;
+	width: 80%;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #47494f;
+}
+.selected{
+	background: #1e2025;
+}

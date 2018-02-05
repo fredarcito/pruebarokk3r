@@ -1,0 +1,14 @@
+.line{
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+}
+.lineChart{
+	position: relative;
+	width: 94%;
+}
+.barChart{
+}
+.pieChart{
+	width: 32%;
+}

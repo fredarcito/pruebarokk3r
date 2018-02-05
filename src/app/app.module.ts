@@ -4,6 +4,9 @@ import { NgModule } from '@angular/core';
 //Services
 import { DataService } from './services/data.service';
 
+//Routes
+import { APP_ROUTING } from './app.routes';
+
 //HighChart
 import { ChartModule } from 'angular-highcharts';
 
@@ -24,7 +27,8 @@ import { NewsComponent } from './components/news/news.component';
   ],
   imports: [
     BrowserModule,
-    ChartModule
+    ChartModule,
+    APP_ROUTING
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

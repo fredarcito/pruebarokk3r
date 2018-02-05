@@ -1,3 +1,7 @@
+h4{
+	text-align: center;
+	color: 
+}
 .news{
 	display: inline-block;
 	vertical-align: top;
@@ -9,4 +13,6 @@
 }
 .news>img{
 	text-align: center;
+	max-height: 300px;
+	width: 100%;
 }
